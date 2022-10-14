@@ -1,0 +1,183 @@
+.box1 {
+background-color: rgb(241, 241, 241);
+height: 450px;
+max-width: 1200px;
+margin-left: 150px;
+border-radius: 15px;
+--animate-duration: 2s;
+--animate-delay: 2s;
+z-index: 5;
+}
+.btn1 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+.i1 {
+transition: 0.8s;
+
+
+}
+
+.i1:hover{
+    transition: 0.4s;
+    color: rgb(0, 89, 255);
+
+}
+
+.Title1 {
+    margin-top: 20px;
+    transition: 0.8s;
+    margin-left: 100px;
+}
+
+.Title1:hover{
+transition: 0.2s;
+margin-left: 120px;
+
+}
+.progress{
+margin-top: 15px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.h3-1{
+transition: 0.6s;
+
+
+
+}
+
+.h3-1:hover {
+transition: 0.4s;
+color: rgb(0, 89, 255);
+
+
+
+}
+
+.img1 {
+height: 600px;
+margin-top: 150px;
+margin-left: 100px;
+display: inline-block;
+--animate-duration: 2s;
+}
+
+.d2 {
+position: absolute;
+margin-top: -500px;
+margin-left: 800px;
+
+}
+.p1 {
+font-size: 20px;
+letter-spacing: 3px;
+transition: 1s;
+
+}
+
+.p1:hover {
+    transition: 0.3s;
+    font-size: 22px;
+    margin-top: 20px;
+    color: rgb(0, 177, 136);
+}
+
+.img2 {
+height: 600px;
+float: right;
+margin-top: 650px;
+--animate-duration: 2s;
+}
+
+.p2 {
+margin-left: 120px;
+font-size: 23px;
+letter-spacing: 3px;
+transition: 1s;
+margin-top: 100px;
+
+}
+
+.p2:hover {
+
+    transition: 0.3s;
+    font-size: 25px;
+    color: rgb(0, 177, 136);
+
+}
+
+
+.a2 {
+text-decoration: none;
+background-color: rgb(0, 177, 136);
+color: white;
+padding-left: 5px;
+padding-right: 10px;
+height: 20px;
+margin-top: 50px;
+z-index: 1;
+margin-left: 300px;
+padding-bottom: 20px;
+position: absolute;
+padding: 30px;
+padding-top: 10px;
+padding-bottom: 35px;
+border-radius: 10px;
+transition: 0.6s;
+margin-top: -150px;
+
+}
+
+.a2:hover {
+transition: 0.2s;
+padding-top: 15px;
+padding-bottom: 40px ;
+
+}
+
+.img3 {
+width: 100%;
+margin-top: 500px;
+}
+
+footer {
+background-color: rgb(37, 37, 37);
+left: 0px;
+right: 0px;
+bottom: 0px;
+height: 150px;
+
+
+}
+
+.btn4 {
+margin-top: 30px;
+margin-left: 250px;
+
+
+}
+
+
+.h4-4 {
+letter-spacing: 4px;
+color: white;
+transition: 1s;
+text-align: center;
+margin-top: 20px;
+}
+
+.h4-4:hover {
+transition: 0.3s;
+color: rgb(0, 89, 255);
+letter-spacing: 6px;
+}
+
+.box1:root {
+    --animate-delay: 2s;
+
+    
+}
