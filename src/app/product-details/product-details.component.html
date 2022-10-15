@@ -1,0 +1,17 @@
+<p>product-details works!</p>
+
+<h2>Pet Details</h2>
+
+
+<div class="d1" *ngIf="product">
+
+ <h3>{{ product.name }}</h3>
+
+ <h4>{{ product.price | currency }}</h4>
+
+ <p>{{ product.description }}</p>
+
+ <button class="btn1" (click)="addToCart()">Add to cart</button>
+
+
+</div>

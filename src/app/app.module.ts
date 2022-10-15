@@ -8,8 +8,10 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { MenuComponent } from './menu/menu.component';
-import { DetailsComponent } from './details/details.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
+import { ServiceCartComponent } from './service-cart/service-cart.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,14 +21,20 @@ import { CartComponent } from './cart/cart.component';
     FooterComponent,
     AboutUsComponent,
     MenuComponent,
-    DetailsComponent,
-    CartComponent
+    CartComponent,
+    ProductDetailsComponent,
+    ServiceCartComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
