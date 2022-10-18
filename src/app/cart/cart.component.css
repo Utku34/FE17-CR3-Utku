@@ -1,0 +1,23 @@
+.cart-item {
+margin-left: 25px;
+background-color: rgb(243, 243, 243);
+width: 1000px;
+border-radius: 15px;
+height: 30px;
+padding-left: 30px;
+
+}
+
+.ii1{
+border: none;
+background-color: rgb(243, 243, 243);
+border-radius: 10px;
+ padding-left: 15px;
+
+}
+
+.ii1::after {
+
+border: none;
+
+}

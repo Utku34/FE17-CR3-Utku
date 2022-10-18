@@ -1,46 +1,50 @@
 <br><br><br><br>
- <h3>Cart</h3>
+ <h3  style="margin-left: 50px;">Cart<i class="fa-solid fa-lg fa-cart-shopping" style="margin-left: 50px; color: rgb(0, 255, 0);"></i></h3>
+<br>
 
 
  <div class="cart-item" *ngFor="let item of items">
- 
+
   <span>{{ item.name }} </span>
- 
+
   <span> {{ item.price | currency }}</span>
- 
- </div>
+
+</div>
+
  
  
  <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
  
- 
+ <br>
   <div>
  
-    <label for="name">
+    <label style="margin-left: 100px;" for="name">
  
       Name
  
     </label>
  
-    <input id="name" type="text" formControlName="name">
+    <input class="ii1" style="margin-left: 34px;" id="name" type="text" formControlName="name">
  
   </div>
- 
+ <br>
  
   <div>
  
-    <label for="address">
+    <label style="margin-left: 100px;" for="address">
  
       Address
  
     </label>
  
-    <input id="address" type="text" formControlName="address">
+    <input class="ii1" style="margin-left: 20px;" id="address" type="text" formControlName="address">
  
   </div>
+ <br>
  
- 
-  <button class="button" type="submit">Purchase</button>
- 
+  <button class="button btn btn-success" (Click)="onSubmit()" style="margin-left: 150px;" type="submit">Purchase</button>
+  <button class="button btn btn-danger" (Click)="clearCart()" style="margin-left: 50px;" type="submit">Clear Cart</button>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
  
  </form>
