@@ -1,34 +1,62 @@
 export const products = [
 
+
+
+
     {
-        name: "Pizza Margherita",
-        price: 15,
-        description:"The Pizza Margherita is made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt, and extra-virgin olive oil.",
-        img: ""
-      },{
-        name: "Lasagna",
-        price: 13,
-        description:"Homemade-Ground-Beef-Lasagna",
-        img: ""
+        name: "HTML",
+
+        price: 100,
+
+        description:"A Frontend Course",
+
+        img: "https://www.ujudebug.com/wp-content/uploads/2022/07/html-logo-transparent.png"
+      }
+      ,
+      {
+        name: "CSS",
+
+        price: 120,
+
+        description:"A Frontend Course",
+
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
       
-      },{
-        name: "Cacio e Pepe",
-        price: 16,
-        description:"Cacio e pepe (literally translates to cheese and pepper) is one of the classic Roman osteria pastas.",
-        img: ""
+      }
+      ,
+      {
+        name: "JAVASCRIPT",
+
+        price: 250,
+
+        description:"A Frontend Course with alot of thing and help to learn outher languates ",
+
+        img: "https://thumbs.dreamstime.com/b/javascript-logo-javascript-logo-white-background-vector-format-available-136765881.jpg"
       
-      },{
-        name: "Pizza Inglesina",
-        price: 20,
-        description:"Pizza inglesina is a variety of traditional Italian pizza that is topped with tomato sauce, mozzarella, and prosciutto crudo.",
-        img: ""
+      }
+      ,
+      {
+        name: "TYPESCRIPT",
+
+        price: 200,
+
+        description:"A Frontend Course where you have to learne js first before you start to do outher frameworks",
+
+        img: "https://www.svgrepo.com/show/303600/typescript-logo.svg"
       
-      },{
-        name: "Pizza Viennese",
-        price: 20,
+      }
+      ,
+      {
+        name: "PHP",
+
+        price: 250,
+
         description:"Although it seemingly deviates from the standard Italian pizza by using an ingredient unconventional for authentic Italian cuisine, the pizza viennese is, a very traditional Italian pizza variety.",
-        img: ""
+
+        img: "https://download.logo.wine/logo/PHP/PHP-Logo.wine.png"
       
       }
   
+
+
    ];
