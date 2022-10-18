@@ -1,0 +1,32 @@
+h1 {
+    margin-left: 50px;
+    transition: 0.8s;
+
+
+}
+
+h1:hover {
+transition: 0.2s;
+color: rgb(0, 72, 255);
+
+}
+
+h3 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.img5 {
+height: 450px;
+width: 750px;
+display: inline-block;
+margin-bottom: 250px;
+}
+
+p {
+display: inline-block;
+letter-spacing: 2px;
+margin-left: 150px;
+font-size: 22px;
+}
+
