@@ -11,9 +11,6 @@ import { CartService } from '../cart.service';
 })
 export class HomeComponent implements OnInit {
   products:IProducts[] = products;
-  product: IProducts = {} as IProducts;
-id: number = 0;
-
 
 
   constructor(  private route: ActivatedRoute,
@@ -21,17 +18,13 @@ id: number = 0;
     
    }
 
-  addToCart() {
+  addToCart(product: IProducts) {
     window.alert('Your product has been added to the cart!');
-    this.cartService.addToCart(this.product);
+    this.cartService.addToCart(product);
   }
 
   ngOnInit(): void {
 
-    this.route.params.subscribe((params: Params) => {
-      this.id = +params['productId'];
-      this.product = products[this.id];
-    });
 
   }
 
