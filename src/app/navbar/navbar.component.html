@@ -12,11 +12,11 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" routerLink="/home"><i class="fa-solid fa-house"></i> Home</a>
+              <a data-bs-dismiss="offcanvas" class="nav-link active" aria-current="page" routerLink="/home"><i class="fa-solid fa-house"></i> Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" routerLink="/menu"><i class="fa-solid fa-shop"></i> Buy Courses</a>
-              <a class="nav-link" routerLink="/cart"><i class="fa-solid fa-cart-shopping"></i> My Cart</a>
+              <a data-bs-dismiss="offcanvas" class="nav-link" routerLink="/menu"><i class="fa-solid fa-shop"></i> Buy Courses</a>
+              <a data-bs-dismiss="offcanvas" class="nav-link" routerLink="/cart"><i class="fa-solid fa-cart-shopping"></i> My Cart</a>
 
             </li>
             <li class="nav-item dropdown">
@@ -24,9 +24,11 @@
                 <i class="fa-solid fa-caret-down"></i> Dropdown
               </a>
               <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" routerLink="/about"><i class="fa-solid fa-user-group"></i> About Us</a></li>
-                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-rotate-right fa-spin"></i> Reload The Page</a></li>
+                <li><a data-bs-dismiss="offcanvas" class="dropdown-item" routerLink="/about"><i class="fa-solid fa-user-group"></i> About Us</a></li>
+                <li><a data-bs-dismiss="offcanvas" class="dropdown-item"  (click)="exit()"><i class="fa-solid fa-arrow-rotate-right fa-spin"></i> Reload The Page</a></li>
                 <li>
+                  <button type="button"  data-bs-dismiss="offcanvas" ></button>
+
                 </li>
               </ul>
             </li>
