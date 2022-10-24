@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ServiceCartComponent } from './service-cart.component';
+import { FooterImgComponent } from './footer-img.component';
 
-describe('ServiceCartComponent', () => {
-  let component: ServiceCartComponent;
-  let fixture: ComponentFixture<ServiceCartComponent>;
+describe('FooterImgComponent', () => {
+  let component: FooterImgComponent;
+  let fixture: ComponentFixture<FooterImgComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ServiceCartComponent ]
+      declarations: [ FooterImgComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ServiceCartComponent);
+    fixture = TestBed.createComponent(FooterImgComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

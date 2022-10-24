@@ -1,0 +1,16 @@
+.product-box {
+    margin-top: 300px;
+    padding-top: -20px;
+    background-color: rgb(243, 243, 243);
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+        }
+    
+        .prod {
+    
+    width: 850px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+        }

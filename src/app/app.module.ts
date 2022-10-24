@@ -10,8 +10,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { MenuComponent } from './menu/menu.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
-import { ServiceCartComponent } from './service-cart/service-cart.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FooterImgComponent } from './footer-img/footer-img.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MenuComponent,
     CartComponent,
     ProductDetailsComponent,
-    ServiceCartComponent
+    FooterImgComponent
   ],
   imports: [
     BrowserModule,

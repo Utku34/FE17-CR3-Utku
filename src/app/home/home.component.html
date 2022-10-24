@@ -144,49 +144,4 @@ Take a Look  <i class="fa-solid fa-right-to-bracket"></i>
 
 
 
-
-
-<div class="product-box">
-
-<!-- ---------------box-----start--------- -->
-
-
-
-
-<div class="row row-cols1 row-cols-md-2 row-cols-lg-3 mt-4 prod" >
-  <div class="col d-flex justify-content-center" *ngFor="let product of products ; index as productId">
-      <div class="card" style="width: 18rem; margin-top: 50px; border-width: 1px; border-radius: 15px; overflow: hidden;">
-          <img src="{{product.img}}" class="card-img-top" style="height:12rem; " alt="...">
-          <div class="card-body" >
-              <h5 class="card-title">{{product.name}}</h5>
-              <p class="card-text">{{product.description}}</p>
-              <hr>
-              <p class="card-price">{{ product.price | currency:'EUR'}}</p>
-              <hr>
-              <a routerLink="/products/{{productId}}" class="btn btn-primary">Details</a>
-              <a  class="btn btn-success " (click)="addToCart(product)">Order</a>
-
-          </div>
-      </div>
-  </div>
-</div>
-
-
-
-
-<!-- ---------------box-----end--------- -->
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
     
-<img class="img3" src="./assets/image/img3.jpg" alt="">
